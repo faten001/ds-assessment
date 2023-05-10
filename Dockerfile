@@ -8,4 +8,4 @@ COPY poem-classification poem-classification
 COPY expression-classification expression-classification
 COPY readme.txt readme.txt
 EXPOSE 8888
-ENTRYPOINT ["jupyter","notebook","--ip=0.0.0.0","--allow-root","--no-browser"]
+ENTRYPOINT ["jupyter","notebook","-port=8888","--ip=0.0.0.0","--allow-root","--no-browser"]
