@@ -1,0 +1,15 @@
+arabic_reshaper==3.0.0
+matplotlib==3.7.1
+nltk==3.8.1
+numpy==1.23.5
+opendatasets==0.1.22
+pandas==2.0.1
+PyArabic==0.6.15
+python_bidi==0.4.2
+scikit_learn==1.2.2
+seaborn==0.12.2
+tensorflow==2.12.0
+transformers==4.28.1
+tensorflow_addons==0.20.0
+jupyter
+joblib
