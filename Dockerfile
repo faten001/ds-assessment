@@ -6,5 +6,6 @@ COPY requirements.txt requirements.txt
 COPY docker-compose.yaml docker-compose.yaml
 COPY poem-classification poem-classification
 COPY expression-classification expression-classification
+COPY readme.txt readme.txt
 EXPOSE 8888
 ENTRYPOINT ["jupyter","notebook","--ip=0.0.0.0","--allow-root","--no-browser"]
