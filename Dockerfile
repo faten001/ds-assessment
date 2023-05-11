@@ -2,7 +2,6 @@ FROM tensorflow/tensorflow:latest-gpu
 WORKDIR ./ds-assessment
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
-COPY requirements.txt requirements.txt
 COPY poem-classification poem-classification
 COPY expression-classification expression-classification
 COPY readme.txt readme.txt
